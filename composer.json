@@ -1,0 +1,30 @@
+{
+    "name": "mrkwp/scbdemo",
+    "description": "SCB Demo by MRK WP",
+    "type": "project",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "MRK WP",
+            "email": "helpdesk@mrkwp.com"
+        }
+    ],
+    "config": {
+        "vendor-dir": "lib",
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    },
+    "repositories":[
+        {
+          "type": "composer",
+          "url": "https://wpackagist.org"
+        }
+      ],
+    "require": {
+        "composer/installers": "^1"
+      },
+    "autoload": {
+        "psr-4": {"MRK_Scbdemo\\": "./core"}
+    }
+}
