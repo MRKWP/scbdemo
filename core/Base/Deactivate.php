@@ -17,7 +17,7 @@ class Deactivate {
 	 *
 	 * @return void
 	 */
-	public static function activate() {
+	public static function deactivate() {
 		flush_rewrite_rules();
 	}
 }
