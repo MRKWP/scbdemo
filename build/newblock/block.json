@@ -1,16 +1,16 @@
 {
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 3,
-  "name": "create-block/scbdemo",
+  "name": "create-block/newblock",
   "version": "0.1.0",
-  "title": "Scbdemo att",
+  "title": "New Block",
   "category": "widgets",
   "icon": "smiley",
-  "description": "Example Dynamic block.",
+  "description": "Example Dynamic new block.",
   "supports": {
     "html": false
   },
-  "textdomain": "scbdemo",
+  "textdomain": "newblock",
   "editorScript": "file:./index.js",
   "editorStyle": "file:./index.css",
   "style": "file:./style-index.css"

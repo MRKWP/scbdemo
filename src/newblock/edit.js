@@ -38,7 +38,7 @@ export default function Edit({ attributes }) {
         <>
             <div {...blockProps}>
                 <ServerSideRender
-                    block="create-block/scbdemo"
+                    block="create-block/newblock"
                     attributes={attributes}
                 />
             </div>

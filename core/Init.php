@@ -20,7 +20,9 @@ final class Init {
 	 */
 	public static function get_services() {
 		return array(
+			Shortcodes\Newblock::class,
 			Shortcodes\Scbdemo::class,
+			Blocks\Newblock::class,
 			Blocks\Scbdemo::class,
 		);
 	}

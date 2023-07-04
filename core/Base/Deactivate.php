@@ -13,7 +13,7 @@ namespace MRK_Scbdemo\Base;
 class Deactivate {
 
 	/**
-	 * Call default activation and rewrite flush.
+	 * Call default deactivation and rewrite flush.
 	 *
 	 * @return void
 	 */
