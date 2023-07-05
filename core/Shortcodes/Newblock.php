@@ -30,7 +30,7 @@ class Newblock extends BaseController {
 	 */
 	public function mrk_newblock_shortcode() {
 
-		wp_enqueue_style( 'newblock-shortcode-style', $this->plugin_url . 'assets/css/newblock.css' );
+		wp_enqueue_style( 'newblock-shortcode-style', $this->plugin_url . 'assets/newblock.css' );
 
 		$html = '<h2>New block Shortcode</h2>';
 
